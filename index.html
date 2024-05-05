@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Developer Shivam 
+          More Details : Cantact Us > shivamksbabu504@gmail.com -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Word Count</h1>
+            <textarea name="textinput" id="textinput" cols="80%" oninput="wordcount()" rows="20"
+                placeholder="Enter your Text!"></textarea>
+            <!-- <button onclick="wordcount()">Check</button> -->
+        </div>
+        <div class="word-dis">
+            <div class="word">
+                <h3>WORD</h3>
+                <span id="word">0</span>
+            </div>
+            <div class="character">
+                <h3>CHARACTER</h3>
+                <span id="character">0</span>
+            </div>
+            <div class="sentance">
+                <h3>SENTANCE</h3>
+                <span id="sentance">0</span>
+
+            </div>
+            <div class="paragraph">
+                <h3>PARAGRAPH</h3>
+                <span id="paragraph">0</span>
+
+            </div>
+            <div class="line">
+                <h3>LINE</h3>
+                <span id="line">0</span>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
