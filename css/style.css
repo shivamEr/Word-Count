@@ -29,7 +29,7 @@ h1 {
 }
 
 .word-dis div {
-    padding: 15px;
+    padding: 22px;
     text-align: center;
 }
 .word-dis span{
@@ -38,5 +38,6 @@ h1 {
 }
 .word-dis h3{
     color: blue;
+    font-weight: 200;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
